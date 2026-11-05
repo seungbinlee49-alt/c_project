@@ -1,0 +1,30 @@
+/build/
+/build-win32/
+/dist/
+/test-output/
+/data/
+
+# Local experiment records contain absolute paths, biometric templates and images.
+/experiments/
+/analysis/
+/protocol/exposed-*.tsv
+
+# Keep the extractor source and license notices, not the duplicate archive.
+/third_party/*.zip
+
+# IDE/runtime files and generated binaries.
+.vs/
+.vscode/
+__pycache__/
+*.py[cod]
+*.user
+*.suo
+*.obj
+*.pdb
+*.exe
+*.dll
+*.lib
+*.exp
+.env
+.env.*
+!.env.example

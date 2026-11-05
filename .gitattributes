@@ -1,0 +1,20 @@
+* text=auto
+*.cpp text eol=lf
+*.h text eol=lf
+*.md text eol=lf
+*.py text eol=lf
+*.ps1 text eol=lf
+*.json text eol=lf
+*.yml text eol=lf
+*.csv text eol=lf
+*.svg text eol=lf
+*.pgm binary
+*.ist binary
+
+# Preserve measured output bytes: manifest hashes refer to the original files.
+results/runs/** -text
+results/summary.csv -text
+
+# GitHub language statistics should describe our code, not vendor/test vectors.
+third_party/** linguist-vendored
+results/** linguist-generated

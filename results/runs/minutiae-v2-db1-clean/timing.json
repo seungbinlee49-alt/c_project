@@ -1,0 +1,1 @@
+{"policy":"Successful logical matching time = cached attempt extraction call time + measured compare call time; excludes IO/process startup","mean_matching_ms":82.263088354430423,"mean_genuine_matching_ms":133.27582142857139,"mean_impostor_matching_ms":77.303517083333389}

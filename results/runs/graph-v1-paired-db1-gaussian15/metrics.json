@@ -1,0 +1,11 @@
+{
+"planned_genuine":70,"planned_impostor":720,
+"successful_genuine":70,"successful_impostor":720,
+"unique_enrollment_attempts":10,"enrollment_failures":0,"FTE":0,
+"genuine_enrollment_blocked":0,"genuine_failed_total":0,"impostor_failed_total":0,
+"REJgenuine":0,"REJimpostor":0,
+"EER":0.018253968253968255,"EER_low":0.014285714285714285,"EER_high":0.022222222222222223,"EER_star":0.018253968253968255,
+"ZeroFMR":0.11428571428571428,"ZeroFNMR":0.090277777777777776,"FMR100":0.028571428571428571,"FMR1000":0.11428571428571428,
+"mean_successful_enroll_ms":18.598680000000002,"mean_successful_attempt_ms":21.909478749999998,"mean_successful_compare_ms":35.001006202531663,
+"mean_successful_template_bytes":198672,"max_template_bytes":198672
+}

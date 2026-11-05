@@ -1,0 +1,34 @@
+name: Windows build and tests
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: windows-2022
+    strategy:
+      fail-fast: false
+      matrix:
+        architecture: [x64, Win32]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Configure
+        run: cmake -S . -B build -A ${{ matrix.architecture }}
+      - name: Build
+        run: cmake --build build --config Release --parallel 2
+      - name: Unit and ABI tests
+        run: ctest --test-dir build -C Release --output-on-failure
+      - name: Graph candidate ABI
+        run: ./build/Release/fp_abi_test.exe ./build/Release/fingerprint_graph.dll
+      - name: Sampling protocol tests without fingerprint data
+        run: python tests/planner_test.py
+      - name: Verify published result files
+        run: python tools/export_results.py --verify
