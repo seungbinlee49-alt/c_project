@@ -28,3 +28,7 @@ __pycache__/
 .env
 .env.*
 !.env.example
+
+# Selected, versioned v1 runtime. Research build outputs remain ignored.
+!/algorithm-v1/bin/**/*.dll
+/algorithm-v1/build*/

@@ -1,0 +1,3 @@
+# Core bytes and DLL hashes identify the frozen selected model.
+src/** -text
+bin/** binary
