@@ -11,4 +11,4 @@ for name, expected in manifest['files'].items():
         raise SystemExit(f'Missing or invalid path: {name}')
     if hashlib.sha256(path.read_bytes()).hexdigest() != expected:
         raise SystemExit(f'Changed selected file: {name}')
-print(f"PASS: selected v1 core and DLLs ({len(manifest['files'])} files)")
+print(f"PASS: selected v1 core, original and evaluation DLLs ({len(manifest['files'])} files)")

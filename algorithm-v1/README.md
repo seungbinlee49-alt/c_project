@@ -28,6 +28,18 @@
 
 ## 사용
 
+### 팀원 평가 프로그램에서 실행
+
+`bin/x64/` 또는 `bin/win32/`의 **fingerprint_algorithm_eval.dll과 FRFXLL.dll**을 같은 폴더에 두고, 평가 대상 DLL로 **fingerprint_algorithm_eval.dll**을 선택한다. 평가 Worker와 DLL의 비트 수를 맞춘다. 함수는 `KISA_Enroll`, `KISA_Attempt`, `KISA_Compare` 그대로다.
+
+이 평가용 DLL은 최종 반환 점수만 `round(score * 1000) / 1000`으로 반올림한다. 팀원 평가 프로그램의 소수점 3자리 검사에 대응하며, 특징점 추출·정합 계산과 템플릿 형식은 기존 V1과 같다. 새 실행에서 등록·인증 템플릿을 생성하고, 기존 결과 재개나 캐시 혼용은 피한다.
+
+실제 영상 3타입 × 본인·타인 × 두 아키텍처에서 원본/평가용 DLL 총 24회 호출로 반올림과 점수 자릿수를 검증했다. 팀원 GUI/Worker와의 실제 통합 실행은 아직 확인하지 않았다.
+
+기존 18조건의 저장 점수 14,220개에 같은 반올림을 적용해 재계산한 평균 EER은 **3.019%**로 같고, 평균 FNMR@FMR≤1%는 **5.476%**다(원본 5.397%). 전체 영상 재실행 결과가 아닌 점수 재계산이다. [평가용 결과](evaluation-results.csv)
+
+### 기존 정밀 점수 DLL
+
 평가 프로그램과 같은 아키텍처의 `bin/x64/` 또는 `bin/win32/`에서 **fingerprint_algorithm.dll과 FRFXLL.dll을 함께** 사용한다. 해당 아키텍처의 Microsoft Visual C++ 2015-2022 런타임이 필요하다. 지문 DB·영상·템플릿은 포함하지 않는다.
 
 | 함수 | 입력 | 출력 |
@@ -55,10 +67,12 @@ cmake -S algorithm-v1 -B algorithm-v1/build-win32 -A Win32
 cmake --build algorithm-v1/build-win32 --config Release
 ```
 
-호출 예제는 헤더 없이 픽셀만 저장한 RAW 파일 두 개를 받는다.
+빌드는 원본 DLL과 평가용 `fingerprint_algorithm_eval.dll`을 모두 생성한다. 호출 예제는 헤더 없이 픽셀만 저장한 RAW 파일 두 개를 받는다.
 
 ```powershell
 ./algorithm-v1/build-x64/Release/fp_compare.exe ./algorithm-v1/bin/x64/fingerprint_algorithm.dll 2 enroll.raw attempt.raw
+# 팀원 평가 프로그램과 같은 3자리 점수 확인
+./algorithm-v1/build-x64/Release/fp_compare.exe ./algorithm-v1/bin/x64/fingerprint_algorithm_eval.dll 2 enroll.raw attempt.raw
 ```
 
 ## 결과

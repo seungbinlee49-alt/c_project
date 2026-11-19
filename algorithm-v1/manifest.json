@@ -12,6 +12,12 @@
     "src/minutiae_graph.h": "22972391c5f96e887bef4532ced4e9795fd6c38e95bb60894dafc4f447a93e51",
     "src/minutiae_orientation.h": "5317581620d82e792c4ac5ea0a952a179ffe4b227969c18406a354fdfb5277a4",
     "src/minutiae_overlap.h": "8c0d04612b4ec648b66360740348cab6f89f0d155e156f2f23c4123c57061d30",
-    "src/photometric.h": "5d6cd97136a1020fbe5422aaac4c66e14a9dd33115858e4ae290810a852361ab"
+    "src/photometric.h": "5d6cd97136a1020fbe5422aaac4c66e14a9dd33115858e4ae290810a852361ab",
+    "bin/x64/fingerprint_algorithm_eval.dll": "3de01f298ca4d6cf556d5ff1cc890cd6f8f70a90420921bff4cebbbc02c4a6c5",
+    "bin/win32/fingerprint_algorithm_eval.dll": "16816bf7585fb2ee412276a250cd642d000790691c2e7f7cc02edc54de4f0efa"
+  },
+  "evaluation_variant": {
+    "score_decimals": 3,
+    "source": "same selected core; FP_THREE_DECIMAL_SCORE enabled"
   }
 }

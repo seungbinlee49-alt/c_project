@@ -2,6 +2,8 @@
 
 최종 선택한 알고리즘의 **[소스·DLL·사용법은 algorithm-v1/](algorithm-v1/README.md)** 에 모았다.
 
+**팀원 평가 프로그램용:** `algorithm-v1/bin/x64/` 또는 `win32/`의 **fingerprint_algorithm_eval.dll + FRFXLL.dll**을 사용한다. 최종 점수를 소수점 3자리로 반환한다. 기존 정밀 점수 V1 DLL은 보존했다.
+
 ## 알고리즘
 
 1. 1/99 백분위 대비 정규화
