@@ -22,3 +22,13 @@ jobs:
         run: cmake -S algorithm-v1 -B algorithm-v1/build -A ${{ matrix.architecture }}
       - name: Build DLLs and calling example
         run: cmake --build algorithm-v1/build --config Release --parallel 2
+      - name: Verify submission source and shipped binaries
+        run: python algorithm-v1/submission/verify.py
+      - name: Configure submission
+        run: cmake -S algorithm-v1/submission -B algorithm-v1/submission/build-ci -A ${{ matrix.architecture }}
+      - name: Build submission and contract tests
+        run: cmake --build algorithm-v1/submission/build-ci --config Release --parallel 2
+      - name: Check scoring and compact template contract
+        run: ctest --test-dir algorithm-v1/submission/build-ci -C Release --output-on-failure
+      - name: Check plain loader and exception boundaries
+        run: python algorithm-v1/submission/tests/verify_runtime.py --build algorithm-v1/submission/build-ci/Release

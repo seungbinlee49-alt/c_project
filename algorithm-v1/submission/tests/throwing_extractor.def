@@ -1,0 +1,6 @@
+EXPORTS
+    FRFXLLCreateLibraryContext=ThrowUnknown
+    FRFXLLCreateFeatureSetFromRaw=ThrowUnknown
+    FRFXLLGetMinutiaInfo=ThrowUnknown
+    FRFXLLGetMinutiae=ThrowUnknown
+    FRFXLLCloseHandle=ThrowUnknown

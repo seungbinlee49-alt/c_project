@@ -32,3 +32,6 @@ __pycache__/
 # Selected, versioned v1 runtime. Research build outputs remain ignored.
 !/algorithm-v1/bin/**/*.dll
 /algorithm-v1/build*/
+/algorithm-v1/submission/build*/
+/algorithm-v1/submission/dist/
+!/algorithm-v1/submission/bin/**/*.dll

@@ -1,0 +1,926 @@
+{
+  "date": "2026-11-23",
+  "status": "PASS",
+  "recognition_rules_changed": false,
+  "template_version": 2,
+  "original_template_bytes": 551512,
+  "regression": {
+    "status": "PASS",
+    "conditions": [
+      {
+        "db": 1,
+        "condition": "clean",
+        "pairs": 790,
+        "templates": 90,
+        "max_score_difference": 0.0,
+        "EER": 0.014087301587301586,
+        "FMR100": 0.014285714285714285,
+        "template_mean_bytes": 145181.15555555557,
+        "template_max_bytes": 205416,
+        "enroll": {
+          "n": 10,
+          "mean_ms": 12.682220000000001,
+          "p95_ms": 14.8337,
+          "max_ms": 14.8337,
+          "over_250ms": 0
+        },
+        "attempt": {
+          "n": 80,
+          "mean_ms": 12.79575125,
+          "p95_ms": 15.2181,
+          "max_ms": 22.6795,
+          "over_250ms": 0
+        },
+        "compare": {
+          "n": 790,
+          "mean_ms": 12.603178987341773,
+          "p95_ms": 27.837,
+          "max_ms": 78.0761,
+          "over_250ms": 0
+        }
+      },
+      {
+        "db": 1,
+        "condition": "gaussian15",
+        "pairs": 790,
+        "templates": 90,
+        "max_score_difference": 0.0,
+        "EER": 0.014087301587301586,
+        "FMR100": 0.014285714285714285,
+        "template_mean_bytes": 147923.02222222224,
+        "template_max_bytes": 205416,
+        "enroll": {
+          "n": 10,
+          "mean_ms": 16.24861,
+          "p95_ms": 21.5318,
+          "max_ms": 21.5318,
+          "over_250ms": 0
+        },
+        "attempt": {
+          "n": 80,
+          "mean_ms": 15.04570625,
+          "p95_ms": 22.4762,
+          "max_ms": 24.9334,
+          "over_250ms": 0
+        },
+        "compare": {
+          "n": 790,
+          "mean_ms": 12.674272278481013,
+          "p95_ms": 27.2037,
+          "max_ms": 83.2985,
+          "over_250ms": 0
+        }
+      },
+      {
+        "db": 1,
+        "condition": "impulse2",
+        "pairs": 790,
+        "templates": 90,
+        "max_score_difference": 0.0,
+        "EER": 0.02103174603174603,
+        "FMR100": 0.07142857142857142,
+        "template_mean_bytes": 148612.8,
+        "template_max_bytes": 205416,
+        "enroll": {
+          "n": 10,
+          "mean_ms": 12.76768,
+          "p95_ms": 14.254,
+          "max_ms": 14.254,
+          "over_250ms": 0
+        },
+        "attempt": {
+          "n": 80,
+          "mean_ms": 13.3756,
+          "p95_ms": 16.8571,
+          "max_ms": 20.2178,
+          "over_250ms": 0
+        },
+        "compare": {
+          "n": 790,
+          "mean_ms": 12.847064810126582,
+          "p95_ms": 28.443,
+          "max_ms": 80.6149,
+          "over_250ms": 0
+        }
+      },
+      {
+        "db": 1,
+        "condition": "gaussian30",
+        "pairs": 790,
+        "templates": 90,
+        "max_score_difference": 0.0,
+        "EER": 0.059126984126984125,
+        "FMR100": 0.08571428571428572,
+        "template_mean_bytes": 153699.9111111111,
+        "template_max_bytes": 205416,
+        "enroll": {
+          "n": 10,
+          "mean_ms": 15.19684,
+          "p95_ms": 22.4595,
+          "max_ms": 22.4595,
+          "over_250ms": 0
+        },
+        "attempt": {
+          "n": 80,
+          "mean_ms": 14.72107375,
+          "p95_ms": 18.3991,
+          "max_ms": 22.7986,
+          "over_250ms": 0
+        },
+        "compare": {
+          "n": 790,
+          "mean_ms": 13.666386329113925,
+          "p95_ms": 27.2381,
+          "max_ms": 86.24,
+          "over_250ms": 0
+        }
+      },
+      {
+        "db": 1,
+        "condition": "brightness",
+        "pairs": 790,
+        "templates": 90,
+        "max_score_difference": 0.0,
+        "EER": 0.014087301587301586,
+        "FMR100": 0.014285714285714285,
+        "template_mean_bytes": 145905.42222222223,
+        "template_max_bytes": 205416,
+        "enroll": {
+          "n": 10,
+          "mean_ms": 14.05569,
+          "p95_ms": 20.1133,
+          "max_ms": 20.1133,
+          "over_250ms": 0
+        },
+        "attempt": {
+          "n": 80,
+          "mean_ms": 12.9336625,
+          "p95_ms": 15.5564,
+          "max_ms": 16.3602,
+          "over_250ms": 0
+        },
+        "compare": {
+          "n": 790,
+          "mean_ms": 12.56375,
+          "p95_ms": 27.9565,
+          "max_ms": 85.1119,
+          "over_250ms": 0
+        }
+      },
+      {
+        "db": 1,
+        "condition": "blur1",
+        "pairs": 790,
+        "templates": 90,
+        "max_score_difference": 0.0,
+        "EER": 0.014087301587301586,
+        "FMR100": 0.02857142857142857,
+        "template_mean_bytes": 138162.66666666666,
+        "template_max_bytes": 205416,
+        "enroll": {
+          "n": 10,
+          "mean_ms": 15.17907,
+          "p95_ms": 17.4448,
+          "max_ms": 17.4448,
+          "over_250ms": 0
+        },
+        "attempt": {
+          "n": 80,
+          "mean_ms": 14.4710275,
+          "p95_ms": 17.8164,
+          "max_ms": 19.4337,
+          "over_250ms": 0
+        },
+        "compare": {
+          "n": 790,
+          "mean_ms": 11.959694303797468,
+          "p95_ms": 26.7963,
+          "max_ms": 78.6355,
+          "over_250ms": 0
+        }
+      },
+      {
+        "db": 2,
+        "condition": "clean",
+        "pairs": 790,
+        "templates": 90,
+        "max_score_difference": 0.0,
+        "EER": 0.015476190476190477,
+        "FMR100": 0.02857142857142857,
+        "template_mean_bytes": 69181.15555555555,
+        "template_max_bytes": 201584,
+        "enroll": {
+          "n": 10,
+          "mean_ms": 7.2396899999999995,
+          "p95_ms": 10.1913,
+          "max_ms": 10.1913,
+          "over_250ms": 0
+        },
+        "attempt": {
+          "n": 80,
+          "mean_ms": 6.66810875,
+          "p95_ms": 8.0195,
+          "max_ms": 9.3744,
+          "over_250ms": 0
+        },
+        "compare": {
+          "n": 790,
+          "mean_ms": 4.070200126582279,
+          "p95_ms": 8.9955,
+          "max_ms": 38.4577,
+          "over_250ms": 0
+        }
+      },
+      {
+        "db": 2,
+        "condition": "gaussian15",
+        "pairs": 790,
+        "templates": 90,
+        "max_score_difference": 1.0408340855860843e-17,
+        "EER": 0.030257936507936505,
+        "FMR100": 0.08571428571428572,
+        "template_mean_bytes": 77044.62222222223,
+        "template_max_bytes": 201584,
+        "enroll": {
+          "n": 10,
+          "mean_ms": 6.75656,
+          "p95_ms": 8.5559,
+          "max_ms": 8.5559,
+          "over_250ms": 0
+        },
+        "attempt": {
+          "n": 80,
+          "mean_ms": 6.55635375,
+          "p95_ms": 7.7837,
+          "max_ms": 10.4865,
+          "over_250ms": 0
+        },
+        "compare": {
+          "n": 790,
+          "mean_ms": 4.482778101265823,
+          "p95_ms": 10.0864,
+          "max_ms": 27.9673,
+          "over_250ms": 0
+        }
+      },
+      {
+        "db": 2,
+        "condition": "impulse2",
+        "pairs": 790,
+        "templates": 90,
+        "max_score_difference": 0.0,
+        "EER": 0.05704365079365079,
+        "FMR100": 0.11428571428571428,
+        "template_mean_bytes": 69991.64444444445,
+        "template_max_bytes": 158128,
+        "enroll": {
+          "n": 10,
+          "mean_ms": 7.35483,
+          "p95_ms": 8.4061,
+          "max_ms": 8.4061,
+          "over_250ms": 0
+        },
+        "attempt": {
+          "n": 80,
+          "mean_ms": 6.70478625,
+          "p95_ms": 7.8794,
+          "max_ms": 10.8988,
+          "over_250ms": 0
+        },
+        "compare": {
+          "n": 790,
+          "mean_ms": 4.550935316455696,
+          "p95_ms": 10.0496,
+          "max_ms": 30.4451,
+          "over_250ms": 0
+        }
+      },
+      {
+        "db": 2,
+        "condition": "gaussian30",
+        "pairs": 790,
+        "templates": 90,
+        "max_score_difference": 0.0,
+        "EER": 0.05843253968253968,
+        "FMR100": 0.14285714285714285,
+        "template_mean_bytes": 112792.35555555555,
+        "template_max_bytes": 201584,
+        "enroll": {
+          "n": 10,
+          "mean_ms": 6.61817,
+          "p95_ms": 7.4145,
+          "max_ms": 7.4145,
+          "over_250ms": 0
+        },
+        "attempt": {
+          "n": 80,
+          "mean_ms": 7.1738875,
+          "p95_ms": 8.6671,
+          "max_ms": 9.6985,
+          "over_250ms": 0
+        },
+        "compare": {
+          "n": 790,
+          "mean_ms": 6.8859569620253165,
+          "p95_ms": 14.3919,
+          "max_ms": 36.1482,
+          "over_250ms": 0
+        }
+      },
+      {
+        "db": 2,
+        "condition": "brightness",
+        "pairs": 790,
+        "templates": 90,
+        "max_score_difference": 0.0,
+        "EER": 0.014781746031746031,
+        "FMR100": 0.02857142857142857,
+        "template_mean_bytes": 69491.55555555556,
+        "template_max_bytes": 201584,
+        "enroll": {
+          "n": 10,
+          "mean_ms": 9.0676,
+          "p95_ms": 13.6932,
+          "max_ms": 13.6932,
+          "over_250ms": 0
+        },
+        "attempt": {
+          "n": 80,
+          "mean_ms": 7.12283375,
+          "p95_ms": 8.8014,
+          "max_ms": 11.2464,
+          "over_250ms": 0
+        },
+        "compare": {
+          "n": 790,
+          "mean_ms": 4.533225949367089,
+          "p95_ms": 9.7001,
+          "max_ms": 34.706,
+          "over_250ms": 0
+        }
+      },
+      {
+        "db": 2,
+        "condition": "blur1",
+        "pairs": 790,
+        "templates": 90,
+        "max_score_difference": 0.0,
+        "EER": 0.005555555555555556,
+        "FMR100": 0.014285714285714285,
+        "template_mean_bytes": 65335.64444444444,
+        "template_max_bytes": 201584,
+        "enroll": {
+          "n": 10,
+          "mean_ms": 6.9423,
+          "p95_ms": 8.1721,
+          "max_ms": 8.1721,
+          "over_250ms": 0
+        },
+        "attempt": {
+          "n": 80,
+          "mean_ms": 6.7299125,
+          "p95_ms": 8.5608,
+          "max_ms": 12.1448,
+          "over_250ms": 0
+        },
+        "compare": {
+          "n": 790,
+          "mean_ms": 4.127716455696203,
+          "p95_ms": 9.0299,
+          "max_ms": 25.1409,
+          "over_250ms": 0
+        }
+      },
+      {
+        "db": 3,
+        "condition": "clean",
+        "pairs": 790,
+        "templates": 90,
+        "max_score_difference": 0.0,
+        "EER": 0.042261904761904764,
+        "FMR100": 0.05714285714285714,
+        "template_mean_bytes": 102484.08888888889,
+        "template_max_bytes": 208296,
+        "enroll": {
+          "n": 10,
+          "mean_ms": 14.15334,
+          "p95_ms": 17.0111,
+          "max_ms": 17.0111,
+          "over_250ms": 0
+        },
+        "attempt": {
+          "n": 80,
+          "mean_ms": 13.77582625,
+          "p95_ms": 17.0754,
+          "max_ms": 19.3194,
+          "over_250ms": 0
+        },
+        "compare": {
+          "n": 790,
+          "mean_ms": 6.021006582278481,
+          "p95_ms": 15.6754,
+          "max_ms": 52.5422,
+          "over_250ms": 0
+        }
+      },
+      {
+        "db": 3,
+        "condition": "gaussian15",
+        "pairs": 790,
+        "templates": 90,
+        "max_score_difference": 0.0,
+        "EER": 0.042261904761904764,
+        "FMR100": 0.05714285714285714,
+        "template_mean_bytes": 106088.17777777778,
+        "template_max_bytes": 208296,
+        "enroll": {
+          "n": 10,
+          "mean_ms": 11.764710000000001,
+          "p95_ms": 12.997,
+          "max_ms": 12.997,
+          "over_250ms": 0
+        },
+        "attempt": {
+          "n": 80,
+          "mean_ms": 13.72939,
+          "p95_ms": 16.7525,
+          "max_ms": 18.0905,
+          "over_250ms": 0
+        },
+        "compare": {
+          "n": 790,
+          "mean_ms": 6.350667974683544,
+          "p95_ms": 16.2492,
+          "max_ms": 38.9042,
+          "over_250ms": 0
+        }
+      },
+      {
+        "db": 3,
+        "condition": "impulse2",
+        "pairs": 790,
+        "templates": 90,
+        "max_score_difference": 0.0,
+        "EER": 0.02817460317460317,
+        "FMR100": 0.04285714285714286,
+        "template_mean_bytes": 111192.53333333334,
+        "template_max_bytes": 208296,
+        "enroll": {
+          "n": 10,
+          "mean_ms": 13.41652,
+          "p95_ms": 16.686,
+          "max_ms": 16.686,
+          "over_250ms": 0
+        },
+        "attempt": {
+          "n": 80,
+          "mean_ms": 13.054135,
+          "p95_ms": 18.5368,
+          "max_ms": 23.3417,
+          "over_250ms": 0
+        },
+        "compare": {
+          "n": 790,
+          "mean_ms": 6.538526202531646,
+          "p95_ms": 17.085,
+          "max_ms": 59.8931,
+          "over_250ms": 0
+        }
+      },
+      {
+        "db": 3,
+        "condition": "gaussian30",
+        "pairs": 790,
+        "templates": 90,
+        "max_score_difference": 0.0,
+        "EER": 0.042261904761904764,
+        "FMR100": 0.05714285714285714,
+        "template_mean_bytes": 113210.13333333333,
+        "template_max_bytes": 208296,
+        "enroll": {
+          "n": 10,
+          "mean_ms": 13.78857,
+          "p95_ms": 19.3713,
+          "max_ms": 19.3713,
+          "over_250ms": 0
+        },
+        "attempt": {
+          "n": 80,
+          "mean_ms": 13.528118749999999,
+          "p95_ms": 17.127,
+          "max_ms": 21.3303,
+          "over_250ms": 0
+        },
+        "compare": {
+          "n": 790,
+          "mean_ms": 6.722760632911393,
+          "p95_ms": 17.2359,
+          "max_ms": 61.478,
+          "over_250ms": 0
+        }
+      },
+      {
+        "db": 3,
+        "condition": "brightness",
+        "pairs": 790,
+        "templates": 90,
+        "max_score_difference": 0.0,
+        "EER": 0.042261904761904764,
+        "FMR100": 0.07142857142857142,
+        "template_mean_bytes": 102570.3111111111,
+        "template_max_bytes": 208296,
+        "enroll": {
+          "n": 10,
+          "mean_ms": 12.39966,
+          "p95_ms": 14.8552,
+          "max_ms": 14.8552,
+          "over_250ms": 0
+        },
+        "attempt": {
+          "n": 80,
+          "mean_ms": 12.71152875,
+          "p95_ms": 14.6348,
+          "max_ms": 18.16,
+          "over_250ms": 0
+        },
+        "compare": {
+          "n": 790,
+          "mean_ms": 5.9681316455696205,
+          "p95_ms": 15.5836,
+          "max_ms": 43.6898,
+          "over_250ms": 0
+        }
+      },
+      {
+        "db": 3,
+        "condition": "blur1",
+        "pairs": 790,
+        "templates": 90,
+        "max_score_difference": 0.0,
+        "EER": 0.02817460317460317,
+        "FMR100": 0.04285714285714286,
+        "template_mean_bytes": 100156.08888888889,
+        "template_max_bytes": 208296,
+        "enroll": {
+          "n": 10,
+          "mean_ms": 12.96961,
+          "p95_ms": 14.7921,
+          "max_ms": 14.7921,
+          "over_250ms": 0
+        },
+        "attempt": {
+          "n": 80,
+          "mean_ms": 12.773165,
+          "p95_ms": 14.2459,
+          "max_ms": 20.8044,
+          "over_250ms": 0
+        },
+        "compare": {
+          "n": 790,
+          "mean_ms": 5.7083956962025315,
+          "p95_ms": 15.0068,
+          "max_ms": 42.6828,
+          "over_250ms": 0
+        }
+      }
+    ],
+    "pairs": 14220,
+    "extractions": 1620,
+    "maximum_score_difference": 1.0408340855860843e-17,
+    "mean_EER": 0.03019179894179894,
+    "template_mean_bytes": 109945.73827160493,
+    "template_min_bytes": 24656,
+    "template_max_bytes": 208296,
+    "concurrent_workers": 4,
+    "functions": {
+      "enroll": {
+        "n": 180,
+        "mean_ms": 11.588981666666667,
+        "p95_ms": 17.4448,
+        "max_ms": 22.4595,
+        "over_250ms": 0
+      },
+      "attempt": {
+        "n": 1440,
+        "mean_ms": 11.326159305555555,
+        "p95_ms": 16.8666,
+        "max_ms": 24.9334,
+        "over_250ms": 0
+      },
+      "compare": {
+        "n": 14220,
+        "mean_ms": 7.904147130801688,
+        "p95_ms": 21.9171,
+        "max_ms": 86.24,
+        "over_250ms": 0
+      }
+    },
+    "paired_serial_compare": {
+      "original": {
+        "n": 432,
+        "mean_ms": 16.743269907407406,
+        "p95_ms": 60.4962,
+        "max_ms": 81.8102,
+        "over_250ms": 0
+      },
+      "hardened": {
+        "n": 432,
+        "mean_ms": 7.487088425925926,
+        "p95_ms": 25.3765,
+        "max_ms": 34.6499,
+        "over_250ms": 0
+      },
+      "speedup": 2.2362858503753777
+    },
+    "note": "Observed timings on this PC only; development-exposed data; no recognition tuning."
+  },
+  "team_integration": {
+    "status": "PASS",
+    "team_commit": "635f88b6e9d6279c931f996789092fe09c22e648",
+    "cases": [
+      {
+        "db": 1,
+        "architecture": "x64",
+        "comparisons": 790,
+        "extractions": 90,
+        "failures": 0,
+        "max_compare_ms": 85.328,
+        "max_extract_ms": 25.669,
+        "template_min_bytes": 40904,
+        "template_max_bytes": 205416,
+        "html": true,
+        "docx": true,
+        "score_parity": true
+      },
+      {
+        "db": 1,
+        "architecture": "win32",
+        "comparisons": 790,
+        "extractions": 90,
+        "failures": 0,
+        "max_compare_ms": 193.447,
+        "max_extract_ms": 28.554,
+        "template_min_bytes": 40904,
+        "template_max_bytes": 205416,
+        "html": true,
+        "docx": true,
+        "score_parity": true
+      },
+      {
+        "db": 2,
+        "architecture": "x64",
+        "comparisons": 790,
+        "extractions": 90,
+        "failures": 0,
+        "max_compare_ms": 35.059,
+        "max_extract_ms": 14.213,
+        "template_min_bytes": 26208,
+        "template_max_bytes": 201584,
+        "html": true,
+        "docx": true,
+        "score_parity": true
+      },
+      {
+        "db": 2,
+        "architecture": "win32",
+        "comparisons": 790,
+        "extractions": 90,
+        "failures": 0,
+        "max_compare_ms": 88.868,
+        "max_extract_ms": 18.406,
+        "template_min_bytes": 26208,
+        "template_max_bytes": 201584,
+        "html": true,
+        "docx": true,
+        "score_parity": true
+      },
+      {
+        "db": 3,
+        "architecture": "x64",
+        "comparisons": 790,
+        "extractions": 90,
+        "failures": 0,
+        "max_compare_ms": 48.916,
+        "max_extract_ms": 22.067,
+        "template_min_bytes": 36024,
+        "template_max_bytes": 208296,
+        "html": true,
+        "docx": true,
+        "score_parity": true
+      },
+      {
+        "db": 3,
+        "architecture": "win32",
+        "comparisons": 790,
+        "extractions": 90,
+        "failures": 0,
+        "max_compare_ms": 124.908,
+        "max_extract_ms": 28.621,
+        "template_min_bytes": 36024,
+        "template_max_bytes": 208296,
+        "html": true,
+        "docx": true,
+        "score_parity": true
+      }
+    ],
+    "comparisons": 4740,
+    "gui_manually_tested": false,
+    "team_core_checks": 20041,
+    "note": "Latest team CLI and both Worker architectures; unchanged team sources. MFC unavailable, GUI not built."
+  },
+  "loader_contract": {
+    "x64": {
+      "status": "PASS",
+      "cases": [
+        {
+          "dll": "fingerprint_algorithm.dll",
+          "fixture": "sibling",
+          "plain_load": true,
+          "imports": [
+            "KERNEL32.dll"
+          ],
+          "exports": [
+            "KISA_Attempt",
+            "KISA_Compare",
+            "KISA_Enroll"
+          ]
+        },
+        {
+          "dll": "fingerprint_algorithm.dll",
+          "fixture": "missing",
+          "plain_load": true,
+          "imports": [
+            "KERNEL32.dll"
+          ],
+          "exports": [
+            "KISA_Attempt",
+            "KISA_Compare",
+            "KISA_Enroll"
+          ]
+        },
+        {
+          "dll": "fingerprint_algorithm.dll",
+          "fixture": "throwing",
+          "plain_load": true,
+          "imports": [
+            "KERNEL32.dll"
+          ],
+          "exports": [
+            "KISA_Attempt",
+            "KISA_Compare",
+            "KISA_Enroll"
+          ]
+        },
+        {
+          "dll": "fingerprint_algorithm_eval.dll",
+          "fixture": "sibling",
+          "plain_load": true,
+          "imports": [
+            "KERNEL32.dll"
+          ],
+          "exports": [
+            "KISA_Attempt",
+            "KISA_Compare",
+            "KISA_Enroll"
+          ]
+        },
+        {
+          "dll": "fingerprint_algorithm_eval.dll",
+          "fixture": "missing",
+          "plain_load": true,
+          "imports": [
+            "KERNEL32.dll"
+          ],
+          "exports": [
+            "KISA_Attempt",
+            "KISA_Compare",
+            "KISA_Enroll"
+          ]
+        },
+        {
+          "dll": "fingerprint_algorithm_eval.dll",
+          "fixture": "throwing",
+          "plain_load": true,
+          "imports": [
+            "KERNEL32.dll"
+          ],
+          "exports": [
+            "KISA_Attempt",
+            "KISA_Compare",
+            "KISA_Enroll"
+          ]
+        }
+      ]
+    },
+    "win32": {
+      "status": "PASS",
+      "cases": [
+        {
+          "dll": "fingerprint_algorithm.dll",
+          "fixture": "sibling",
+          "plain_load": true,
+          "imports": [
+            "KERNEL32.dll"
+          ],
+          "exports": [
+            "KISA_Attempt",
+            "KISA_Compare",
+            "KISA_Enroll"
+          ]
+        },
+        {
+          "dll": "fingerprint_algorithm.dll",
+          "fixture": "missing",
+          "plain_load": true,
+          "imports": [
+            "KERNEL32.dll"
+          ],
+          "exports": [
+            "KISA_Attempt",
+            "KISA_Compare",
+            "KISA_Enroll"
+          ]
+        },
+        {
+          "dll": "fingerprint_algorithm.dll",
+          "fixture": "throwing",
+          "plain_load": true,
+          "imports": [
+            "KERNEL32.dll"
+          ],
+          "exports": [
+            "KISA_Attempt",
+            "KISA_Compare",
+            "KISA_Enroll"
+          ]
+        },
+        {
+          "dll": "fingerprint_algorithm_eval.dll",
+          "fixture": "sibling",
+          "plain_load": true,
+          "imports": [
+            "KERNEL32.dll"
+          ],
+          "exports": [
+            "KISA_Attempt",
+            "KISA_Compare",
+            "KISA_Enroll"
+          ]
+        },
+        {
+          "dll": "fingerprint_algorithm_eval.dll",
+          "fixture": "missing",
+          "plain_load": true,
+          "imports": [
+            "KERNEL32.dll"
+          ],
+          "exports": [
+            "KISA_Attempt",
+            "KISA_Compare",
+            "KISA_Enroll"
+          ]
+        },
+        {
+          "dll": "fingerprint_algorithm_eval.dll",
+          "fixture": "throwing",
+          "plain_load": true,
+          "imports": [
+            "KERNEL32.dll"
+          ],
+          "exports": [
+            "KISA_Attempt",
+            "KISA_Compare",
+            "KISA_Enroll"
+          ]
+        }
+      ]
+    }
+  },
+  "core_contract": {
+    "x64": "PASS",
+    "win32": "PASS",
+    "tests": [
+      "original descriptor/field identity",
+      "score parity",
+      "compact round-trip",
+      "checksum rejection",
+      "guarded truncated header",
+      "angle wrap bit identity"
+    ]
+  },
+  "binary_sha256": {
+    "bin/win32/fingerprint_algorithm.dll": "180d2e1be8d4463d2bd03de475c5f922f1c71bc3ce1bf7e77f3995260f17d80c",
+    "bin/win32/fingerprint_algorithm_eval.dll": "bbfa1ad04660e626f38e8c3271b388c3f151ceed7e550455fb7f1980cf411850",
+    "bin/win32/FRFXLL.dll": "e8e5393ed73d8028f56bb319f500ca6a2e4866bdae9e015234447895b83ed803",
+    "bin/x64/fingerprint_algorithm.dll": "80abd6ac79ff090372313d07a4f39d75e293521b4afdb6154c9bc9c7bdcd971d",
+    "bin/x64/fingerprint_algorithm_eval.dll": "60d0bdde4e18b323b276daad317a5fa5174cf83359a74c297b2bacc07cc6f937",
+    "bin/x64/FRFXLL.dll": "444aec6ad4fbb1187f37fba9af9b7a16eb30ce5f1e542c76b4408db1f8c4b035"
+  },
+  "limitations": [
+    "Development-exposed data; no independent certification claim.",
+    "Observed timings apply to this PC and workload only.",
+    "Team CLI/Worker and report generation tested; MFC GUI not built or manually tested.",
+    "FingerJet unit-function permission requires instructor interpretation.",
+    "Regenerate both enroll and attempt templates and invalidate old score caches."
+  ]
+}
