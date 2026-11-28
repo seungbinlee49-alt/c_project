@@ -20,3 +20,9 @@ results/summary.csv -text
 # GitHub language statistics should describe our code, not vendor/test vectors.
 third_party/** linguist-vendored
 results/** linguist-generated
+
+algorithm-dmd/third_party/** linguist-vendored
+algorithm-dmd/evidence/** linguist-generated
+
+# Preserve upstream Markdown hard line breaks in the original notice.
+algorithm-dmd/licenses/DMD/original-README.md whitespace=-blank-at-eol

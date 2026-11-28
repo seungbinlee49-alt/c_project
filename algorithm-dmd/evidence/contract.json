@@ -1,0 +1,33 @@
+{
+  "status": "PASS",
+  "PE": {
+    "exports": [
+      "KISA_Attempt",
+      "KISA_Compare",
+      "KISA_Enroll"
+    ],
+    "imports": [
+      "bcrypt.dll",
+      "KERNEL32.dll"
+    ]
+  },
+  "checks": [
+    "both extractors: null image/size, unsupported type",
+    "exact input boundary before NOACCESS page",
+    "output bytes beyond reported template size untouched",
+    "NOACCESS image, size pointer and score pointer rejected without crash",
+    "checksum rejected",
+    "wrong model rejected",
+    "invalid dimensions rejected",
+    "invalid count rejected",
+    "invalid feature rejected",
+    "huge feature rejected",
+    "24 concurrent comparisons deterministic",
+    "missing-model -> 110",
+    "wrong-model -> 112",
+    "missing-runtime -> 110",
+    "missing-fingerjet -> 110",
+    "throwing-fingerjet -> 999"
+  ],
+  "template_bytes": 143660
+}

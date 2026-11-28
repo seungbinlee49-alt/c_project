@@ -1,0 +1,19 @@
+{
+  "release": "DMD_CPU64_INT8_20261128",
+  "latency": {
+    "calls": 27,
+    "passed": 27,
+    "max_ms": 1515.5504,
+    "first_max_ms": 1515.5504,
+    "repeat_max_ms": 1405.2935,
+    "max_with_dll_load_ms": 1518.0385
+  },
+  "team": {
+    "calls": 9,
+    "passed": 9,
+    "max_ms": 1275.481
+  },
+  "score_regression_pairs": 7110,
+  "model_sha256": "4cfbbfda82384c737ca64eeb440c6f1abe0cdeffe229a3e143b0bcfde94785fb",
+  "dll_sha256": "38da183fe7d32da21160fd96ba779a86b6204b76b3fb18b3046feab09cfdd52d"
+}

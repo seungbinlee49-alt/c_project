@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "install_hash_verified": true,
+  "installed_module_smoke_pass": true,
+  "uninstall_removed_unchanged_owned_files": true,
+  "preserved": [
+    "NOTICE.txt",
+    "keep-user.txt"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "rules": {
+    "enroll": "First",
+    "genuine": "All",
+    "impostor": "All",
+    "impostorSymmetric": false,
+    "seed": 2026112803
+  },
+  "run": {
+    "workers": 1,
+    "timeoutSec": 30,
+    "anonymizeNames": true
+  },
+  "report": {
+    "formats": [
+      "html",
+      "docx"
+    ],
+    "eerMethod": "FVC",
+    "denominator": "predefined"
+  }
+}

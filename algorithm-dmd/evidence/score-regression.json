@@ -1,0 +1,164 @@
+[
+  {
+    "db": 1,
+    "condition": "clean",
+    "pairs": 790,
+    "all_scores_equal": true,
+    "metrics": {
+      "planned_genuine": 70,
+      "planned_impostor": 720,
+      "successful_genuine": 70,
+      "successful_impostor": 720,
+      "genuine_failed_total": 0,
+      "impostor_failed_total": 0,
+      "EER": 0,
+      "EER_star": 0,
+      "FMR100": 0,
+      "FMR1000": 0
+    }
+  },
+  {
+    "db": 1,
+    "condition": "gaussian30",
+    "pairs": 790,
+    "all_scores_equal": true,
+    "metrics": {
+      "planned_genuine": 70,
+      "planned_impostor": 720,
+      "successful_genuine": 70,
+      "successful_impostor": 720,
+      "genuine_failed_total": 0,
+      "impostor_failed_total": 0,
+      "EER": 0,
+      "EER_star": 0,
+      "FMR100": 0,
+      "FMR1000": 0
+    }
+  },
+  {
+    "db": 1,
+    "condition": "fresh_pixel_sigma_0_45",
+    "pairs": 790,
+    "all_scores_equal": true,
+    "metrics": {
+      "planned_genuine": 70,
+      "planned_impostor": 720,
+      "successful_genuine": 70,
+      "successful_impostor": 720,
+      "genuine_failed_total": 0,
+      "impostor_failed_total": 0,
+      "EER": 0,
+      "EER_star": 0,
+      "FMR100": 0,
+      "FMR1000": 0
+    }
+  },
+  {
+    "db": 2,
+    "condition": "clean",
+    "pairs": 790,
+    "all_scores_equal": true,
+    "metrics": {
+      "planned_genuine": 70,
+      "planned_impostor": 720,
+      "successful_genuine": 70,
+      "successful_impostor": 720,
+      "genuine_failed_total": 0,
+      "impostor_failed_total": 0,
+      "EER": 0,
+      "EER_star": 0,
+      "FMR100": 0,
+      "FMR1000": 0
+    }
+  },
+  {
+    "db": 2,
+    "condition": "gaussian30",
+    "pairs": 790,
+    "all_scores_equal": true,
+    "metrics": {
+      "planned_genuine": 70,
+      "planned_impostor": 720,
+      "successful_genuine": 70,
+      "successful_impostor": 720,
+      "genuine_failed_total": 0,
+      "impostor_failed_total": 0,
+      "EER": 0.013392857142857144,
+      "EER_star": 0.013392857142857144,
+      "FMR100": 0.014285714285714285,
+      "FMR1000": 0.02857142857142857
+    }
+  },
+  {
+    "db": 2,
+    "condition": "fresh_pixel_sigma_0_45",
+    "pairs": 790,
+    "all_scores_equal": true,
+    "metrics": {
+      "planned_genuine": 70,
+      "planned_impostor": 720,
+      "successful_genuine": 70,
+      "successful_impostor": 720,
+      "genuine_failed_total": 0,
+      "impostor_failed_total": 0,
+      "EER": 0,
+      "EER_star": 0,
+      "FMR100": 0,
+      "FMR1000": 0
+    }
+  },
+  {
+    "db": 3,
+    "condition": "clean",
+    "pairs": 790,
+    "all_scores_equal": true,
+    "metrics": {
+      "planned_genuine": 70,
+      "planned_impostor": 720,
+      "successful_genuine": 70,
+      "successful_impostor": 720,
+      "genuine_failed_total": 0,
+      "impostor_failed_total": 0,
+      "EER": 0,
+      "EER_star": 0,
+      "FMR100": 0,
+      "FMR1000": 0
+    }
+  },
+  {
+    "db": 3,
+    "condition": "gaussian30",
+    "pairs": 790,
+    "all_scores_equal": true,
+    "metrics": {
+      "planned_genuine": 70,
+      "planned_impostor": 720,
+      "successful_genuine": 70,
+      "successful_impostor": 720,
+      "genuine_failed_total": 0,
+      "impostor_failed_total": 0,
+      "EER": 0,
+      "EER_star": 0,
+      "FMR100": 0,
+      "FMR1000": 0
+    }
+  },
+  {
+    "db": 3,
+    "condition": "fresh_pixel_sigma_0_45",
+    "pairs": 790,
+    "all_scores_equal": true,
+    "metrics": {
+      "planned_genuine": 70,
+      "planned_impostor": 720,
+      "successful_genuine": 70,
+      "successful_impostor": 720,
+      "genuine_failed_total": 0,
+      "impostor_failed_total": 0,
+      "EER": 0,
+      "EER_star": 0,
+      "FMR100": 0,
+      "FMR1000": 0
+    }
+  }
+]

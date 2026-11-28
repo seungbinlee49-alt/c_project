@@ -1,0 +1,110 @@
+[
+  {
+    "fixture": 0,
+    "role": "enroll",
+    "body_identical": true,
+    "bytes": 160360
+  },
+  {
+    "fixture": 0,
+    "role": "attempt",
+    "body_identical": true,
+    "bytes": 123620
+  },
+  {
+    "fixture": 1,
+    "role": "enroll",
+    "body_identical": true,
+    "bytes": 160360
+  },
+  {
+    "fixture": 1,
+    "role": "attempt",
+    "body_identical": true,
+    "bytes": 177060
+  },
+  {
+    "fixture": 2,
+    "role": "enroll",
+    "body_identical": true,
+    "bytes": 213800
+  },
+  {
+    "fixture": 2,
+    "role": "attempt",
+    "body_identical": true,
+    "bytes": 213800
+  },
+  {
+    "fixture": 3,
+    "role": "enroll",
+    "body_identical": true,
+    "bytes": 143660
+  },
+  {
+    "fixture": 3,
+    "role": "attempt",
+    "body_identical": true,
+    "bytes": 160360
+  },
+  {
+    "fixture": 4,
+    "role": "enroll",
+    "body_identical": true,
+    "bytes": 143660
+  },
+  {
+    "fixture": 4,
+    "role": "attempt",
+    "body_identical": true,
+    "bytes": 96900
+  },
+  {
+    "fixture": 5,
+    "role": "enroll",
+    "body_identical": true,
+    "bytes": 213800
+  },
+  {
+    "fixture": 5,
+    "role": "attempt",
+    "body_identical": true,
+    "bytes": 213800
+  },
+  {
+    "fixture": 6,
+    "role": "enroll",
+    "body_identical": true,
+    "bytes": 177060
+  },
+  {
+    "fixture": 6,
+    "role": "attempt",
+    "body_identical": true,
+    "bytes": 190420
+  },
+  {
+    "fixture": 7,
+    "role": "enroll",
+    "body_identical": true,
+    "bytes": 177060
+  },
+  {
+    "fixture": 7,
+    "role": "attempt",
+    "body_identical": true,
+    "bytes": 90220
+  },
+  {
+    "fixture": 8,
+    "role": "enroll",
+    "body_identical": true,
+    "bytes": 213800
+  },
+  {
+    "fixture": 8,
+    "role": "attempt",
+    "body_identical": true,
+    "bytes": 213800
+  }
+]

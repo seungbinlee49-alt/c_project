@@ -1,0 +1,22 @@
+외부 자료 및 코드 출처
+
+DMD: Zhiyu Pan 외, Latent Fingerprint Matching via Dense Minutia Descriptor, IJCB 2024.
+논문: https://arxiv.org/abs/2405.01199
+공식 코드: https://github.com/Yu-Yy/DMD (참조 커밋 feb0ad40e5f340caebb457237d7ef21d5d5724e6)
+공식 사전학습 DMD 가중치에서 ONNX 변환 후 INT8 양자화.
+특징 표현, 마스크 기반 점수, Hungarian 대응 및 LSAR 수식을 참조하여 C++ 구현.
+DMD 원문의 라이선스와 학술·비상업 사용 안내를 licenses/DMD에 보존했다.
+
+FingerJetFX OSE: DigitalPersona의 공개 특징점 추출 라이브러리.
+별도 FRFXLL.dll로 사용하며, 대응 소스 전체와 LGPL 관련 문서를 동봉했다.
+출처: https://github.com/FingerJetFXOSE/FingerJetFXOSE
+
+ONNX Runtime 1.23.2: Microsoft의 C/C++ 텐서 추론 런타임.
+https://github.com/microsoft/onnxruntime
+런타임 및 헤더 고지: licenses/ONNXRuntime.
+Microsoft Visual C++ 런타임 DLL은 Windows C++ 배포 의존 파일이다.
+
+배포 응용 코드: C++17. Python·PyTorch·CUDA·외부 추론 EXE를 실행하지 않는다.
+외부 라이브러리 역할: FingerJet=특징점 추출, ONNX Runtime=신경망 연산.
+전처리, 패치 좌표 변환, 템플릿, 대응 선택 및 관계 검증은 본 DLL C++ 코드에 있다.
+교수자의 '단위 기능' 허용 범위 해석을 대신하는 승인 문서는 아니다.

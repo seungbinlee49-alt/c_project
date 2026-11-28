@@ -1,0 +1,27 @@
+name: DMD CPU64 source build
+on:
+  push:
+    paths:
+      - 'algorithm-dmd/**'
+      - '.github/workflows/algorithm-dmd.yml'
+  pull_request:
+    paths:
+      - 'algorithm-dmd/**'
+      - '.github/workflows/algorithm-dmd.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  build:
+    runs-on: windows-2022
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Verify frozen DMD source and evidence
+        run: python algorithm-dmd/verify.py
+      - name: Configure x64 CPU module and replaceable extractor
+        run: cmake -S algorithm-dmd -B algorithm-dmd/build-ci -A x64 -DBUILD_FINGERJET_FROM_SOURCE=ON
+      - name: Build C++ DLLs and API probe
+        run: cmake --build algorithm-dmd/build-ci --config Release --parallel 2

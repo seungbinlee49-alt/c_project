@@ -1,5 +1,10 @@
 # Third-party notices
 
+DMD CPU64 INT8 uses the DMD research method/model and ONNX Runtime; see [algorithm-dmd/NOTICE.txt](algorithm-dmd/NOTICE.txt) and its bundled upstream licenses. The original FingerJet source remains replaceable and available in `third_party/FingerJetFXOSE-master`.
+
+## Preserved V1 notices
+
+
 This product includes the DigitalPersona FingerJetFX OSE fingerprint feature extractor. (http://digitalpersona.com/fingerjetfx)
 
 Only the feature-extraction library is used. Our code implements the local descriptor, geometric-consensus matching, KISA adapters, evaluation engine, reports and Windows GUI. We do not execute the upstream sample application or use a third-party standalone matcher.

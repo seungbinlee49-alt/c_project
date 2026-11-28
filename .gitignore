@@ -35,3 +35,8 @@ __pycache__/
 /algorithm-v1/submission/build*/
 /algorithm-v1/submission/dist/
 !/algorithm-v1/submission/bin/**/*.dll
+
+# DMD source is tracked; model/runtime binaries are GitHub release assets.
+/algorithm-dmd/build*/
+/algorithm-dmd/runtime/
+/algorithm-dmd/dist/

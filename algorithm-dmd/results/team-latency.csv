@@ -1,0 +1,10 @@
+db,type,worker_state,status,elapsed_us,score,under_5s
+1,G,first,OK,1083250,1.000,yes
+1,G,subsequent,OK,1247834,1.000,yes
+1,I,subsequent,OK,1006503,0.080,yes
+2,G,first,OK,1103460,0.924,yes
+2,G,subsequent,OK,716390,1.000,yes
+2,I,subsequent,OK,718733,0.062,yes
+3,G,first,OK,1275481,0.867,yes
+3,G,subsequent,OK,789254,0.951,yes
+3,I,subsequent,OK,781469,0.050,yes

@@ -1,0 +1,170 @@
+{
+  "training": false,
+  "project_images_used": false,
+  "quantization": "QDQ, Conv/MatMul/Gemm only, per-channel signed int8 weights, uint8 activations, MinMax",
+  "source": "16 fixed evenly spaced CrossMatch sample images, 4 fixed points each = 64 patches. No recognition labels or FVC images used.",
+  "records": [
+    {
+      "name": "045_3_1.tif",
+      "indices": [
+        0,
+        21,
+        42,
+        63
+      ],
+      "pixel_sha256": "dd7b913dd5c28bda4326e311b3427e8889886f029bbbf2cb801c0058d471ccb6"
+    },
+    {
+      "name": "045_3_7.tif",
+      "indices": [
+        0,
+        21,
+        42,
+        63
+      ],
+      "pixel_sha256": "dcdc4c2637954c2ac7a198a98231e4dc6362c8e0745d8700212f1386c4b4411d"
+    },
+    {
+      "name": "045_4_5.tif",
+      "indices": [
+        0,
+        21,
+        42,
+        63
+      ],
+      "pixel_sha256": "5a82544093a61fb6273a0215ef5062c22f3a0cb6fabde7005c8bc7bc1b8da8ce"
+    },
+    {
+      "name": "045_5_4.tif",
+      "indices": [
+        0,
+        21,
+        42,
+        63
+      ],
+      "pixel_sha256": "6abe37c2daad177ee540b0603670084b22021f1ee938445109ed1198b497f92c"
+    },
+    {
+      "name": "045_6_2.tif",
+      "indices": [
+        0,
+        21,
+        42,
+        63
+      ],
+      "pixel_sha256": "4c8d7389b4aa884019d04fbab4fbe9a195ad82d366738722c9e25d630486a6ad"
+    },
+    {
+      "name": "045_6_8.tif",
+      "indices": [
+        0,
+        21,
+        42,
+        63
+      ],
+      "pixel_sha256": "fbb1cd4c0c8056ffa649a54325bae7aed7315968c58b69a59bfb1bd19485356a"
+    },
+    {
+      "name": "045_7_7.tif",
+      "indices": [
+        0,
+        21,
+        42,
+        63
+      ],
+      "pixel_sha256": "6fb4bb08aef2e8109fbc4094266dabe67f38e9bada4fe9b52ad423ba9d725bee"
+    },
+    {
+      "name": "045_8_5.tif",
+      "indices": [
+        0,
+        21,
+        42,
+        63
+      ],
+      "pixel_sha256": "9c747d04e51d5e02bf0efda1a5c27091676f51dda6195dbea836b774166c5adc"
+    },
+    {
+      "name": "047_3_3.tif",
+      "indices": [
+        0,
+        15,
+        31,
+        47
+      ],
+      "pixel_sha256": "e9ebf8865faa366ed5dc629370cbd13ffda0b792323022bd3ec9cae473edd4cb"
+    },
+    {
+      "name": "047_4_2.tif",
+      "indices": [
+        0,
+        11,
+        22,
+        33
+      ],
+      "pixel_sha256": "9689bc9981edcadf2c52f51bfbe0bc48195d972649150234c0a6365808a9dca0"
+    },
+    {
+      "name": "047_4_8.tif",
+      "indices": [
+        0,
+        21,
+        42,
+        63
+      ],
+      "pixel_sha256": "6744ac72eefec37ec69c1a9a96ea314fce817bae989a58503731b42b70c54ec3"
+    },
+    {
+      "name": "047_5_6.tif",
+      "indices": [
+        0,
+        21,
+        42,
+        63
+      ],
+      "pixel_sha256": "08acd10bef732ff90bb3ab0a973fcb4dab3f5d73825bba2dea854bacfb1c3515"
+    },
+    {
+      "name": "047_6_5.tif",
+      "indices": [
+        0,
+        21,
+        42,
+        63
+      ],
+      "pixel_sha256": "bea605fc7b9bf33da66c925fe6e19ac1a6f7176a8fcd61b86b75e4023333e950"
+    },
+    {
+      "name": "047_7_3.tif",
+      "indices": [
+        0,
+        21,
+        42,
+        63
+      ],
+      "pixel_sha256": "f13d0d3d6f19645046fc00ca924cf2bb8c18a8a6b689cd90c8eb706293db251f"
+    },
+    {
+      "name": "047_8_1.tif",
+      "indices": [
+        0,
+        21,
+        42,
+        63
+      ],
+      "pixel_sha256": "bb86ff498bd533ce41016e935a1394a19a7740f31d73a4739d07f041f7ebb665"
+    },
+    {
+      "name": "047_8_8.tif",
+      "indices": [
+        0,
+        21,
+        42,
+        63
+      ],
+      "pixel_sha256": "5586aeb1febe1690b1764ea0c4e353db4facb280a25485ea93a8e0cf9ad15a69"
+    }
+  ],
+  "limitation": "These external samples are now calibration data and must not be claimed as independent test data for INT8",
+  "model_sha256": "1a1900df19a193b54b5a691bd56d3f02314f0af0152886dd6103cfa65618ec98"
+}

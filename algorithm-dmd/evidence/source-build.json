@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "MSVC": "19.38",
+  "configuration": "x64 Release",
+  "bundled_source_built": true,
+  "fingerjet_source_rebuilt": true,
+  "runs": [
+    {
+      "db": 1,
+      "score": 1,
+      "template_bytes_identical": true
+    },
+    {
+      "db": 2,
+      "score": 0.924,
+      "template_bytes_identical": true
+    },
+    {
+      "db": 3,
+      "score": 0.867,
+      "template_bytes_identical": true
+    }
+  ]
+}
